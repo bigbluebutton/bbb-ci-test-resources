@@ -8,6 +8,8 @@ This repository contains files with big sizes (images, video, audio and pdf). Th
 
 This repository link is included in [import-tests-ci-resources.sh#L7](https://github.com/daminebenq/bigbluebutton/blob/develop-updated/bigbluebutton-html5/tests/puppeteer/import-tests-ci-resources.sh#L7).
 
+Test files are located cordinately with what version they will be used for; For 2.3 testing: it's files are located in `2.3` folder. And future BBB versions with different layouts will have different folders.
+
 ## How to use ?
 
 In Audio, Webcam, Presentation File Upload and Visual Regressions tests. Our tests scripts require ready to use files, to guarantee the expected results.
