@@ -6,7 +6,7 @@ Repository for puppeteer media browser files and visual regressions tests.
 
 This repository contains files with big sizes (images, video, audio and pdf). These files will be called in the execution of the tests with our without Visual Regressions.
 
-This repository link is included in [import-tests-ci-resources.sh#L7](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/import-tests-ci-resources.sh#L7).
+This repository link is included in [import-tests-ci-resources.sh#L6](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/import-tests-ci-resources.sh#L6).
 
 Test files are located cordinately with what version they will be used for; For 2.3 testing: it's files are located in `2.3` folder. And future BBB versions with different layouts will have different folders.
 
@@ -14,7 +14,7 @@ Test files are located cordinately with what version they will be used for; For 
 
 In Audio, Webcam, Presentation File Upload and Visual Regressions tests. Our tests scripts require ready to use files, to guarantee the expected results.
 
-For example: [page.js#L183](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/core/page.js#L183)
+For example: [page.js#L176-L184](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/core/page.js#L176-L184)
 
 ```
 const args = [
