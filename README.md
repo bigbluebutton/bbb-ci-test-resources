@@ -14,7 +14,7 @@ Test files are located cordinately with what version they will be used for; For 
 
 In Audio, Webcam, Presentation File Upload and Visual Regressions tests. Our tests scripts require ready to use files, to guarantee the expected results.
 
-For example: [page.js#L176-L184](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/core/page.js#L176-L184)
+For example: [page.js#L198-L208](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/core/page.js#L198-L208)
 
 ```
 const args = [
