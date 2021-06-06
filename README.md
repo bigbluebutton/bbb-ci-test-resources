@@ -30,7 +30,7 @@ const args = [
 ];
 ```
 
-In the code block above, `--use-file-for-fake-audio-capture=${path.join(__dirname, '../media/audio.wav')}` is importing `audio.wav` to use it as audio capture source to test audio in a BBB session.
+In the code block above, `--use-file-for-fake-audio-capture=${path.join(__dirname, '../media/audio.wav')}` is importing `audio.wav` to use it as audio capture source to test audio in a BBB session. Which is the same for `video_rgb.y4m` file. These 2 files are defined in lines: [page.js#L15-L16](https://github.com/bigbluebutton/bigbluebutton/blob/develop/bigbluebutton-html5/tests/puppeteer/core/page.js#L15-L16).
 
 ## How this is going to be used in CI ?
 
