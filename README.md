@@ -18,13 +18,15 @@ For example: [page.js#L198-L208](https://github.com/bigbluebutton/bigbluebutton/
 
 ```
 const args = [
-    '--no-sandbox',
-    '--use-fake-ui-for-media-stream',
-    '--use-fake-device-for-media-stream',
-    '--window-size=1280,720',
-    `--use-file-for-fake-audio-capture=${path.join(__dirname, '../media/audio.wav')}`,
-    '--allow-file-access',
-    '--lang=en-US',
+      '--no-sandbox',
+      '--use-fake-ui-for-media-stream',
+      '--use-fake-device-for-media-stream',
+      '--no-default-browser-check',
+      '--window-size=1150,980',
+      audioCapture,
+      videoCapture,
+      '--allow-file-access',
+      '--lang=en-US',
 ];
 ```
 
